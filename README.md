@@ -15,6 +15,14 @@ E(R<sub>i</sub>) = &beta;<sub>1</sub>E(R<sub>Tech</sub>) + &beta;<sub>2</sub>E(R
 Market Cap, Sector Betas, Volatility, EV/Asset Ratio, P/E Ratio, ...etc.
 
 
+## Model training
+Use GridSearchCV from sklearn to search the optimal hyperparameter (we use 5-fold cross validation and Roc_Auc as evalutating score).<br>
+Use RandomForestClassifier as classifier.<br>
+In order to get balance training set, we use upsampling tecnique. <br>
+Save trained models by pickle.
+
+## Result
+We get over 95% accuracy on sector prediction, and average 84% accuracy on other metrics prediction.
 
 
 ## Authors
