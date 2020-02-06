@@ -9,9 +9,10 @@ In order to have balanced and meaningful feature of each stocks, we calculate so
 
 ### Feature list
 We Calculate Beta for each Sector. 
-$$ f_x $$
+E(R<sub>i</sub>) = &beta;<sub>1</sub>E(R<sub>Tech</sub>) + &beta;<sub>2</sub>E(R<sub>Utility</sub>) + ... + &beta;<sub>1</sub>E(R<sub>Financial</sub>) + &epsilon;
 
-Market Cap, Sector Beta, Volatility, EV/Asset Ratio, P/E Ratio, ...etc.
+
+Market Cap, Sector Betas, Volatility, EV/Asset Ratio, P/E Ratio, ...etc.
 
 
 
